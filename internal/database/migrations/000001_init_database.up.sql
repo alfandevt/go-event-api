@@ -16,6 +16,7 @@ CREATE TABLE IF NOT EXISTS events (
   location TEXT NOT NULL,
   dateTime TEXT NOT NULL,
   organizer INTEGER NOT NULL, -- refer to user id
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (organizer) REFERENCES users (id)
 );
 

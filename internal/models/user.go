@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/alfandevt/go-even-api/internal/database"
-	"github.com/alfandevt/go-even-api/pkg/utils"
+	"github.com/alfandevt/go-event-api/internal/database"
+	"github.com/alfandevt/go-event-api/pkg/utils"
 )
 
 type User struct {

@@ -3,8 +3,8 @@ package routes
 import (
 	"net/http"
 
-	"github.com/alfandevt/go-even-api/internal/models"
-	"github.com/alfandevt/go-even-api/pkg/utils"
+	"github.com/alfandevt/go-event-api/internal/models"
+	"github.com/alfandevt/go-event-api/pkg/utils"
 	"github.com/gin-gonic/gin"
 )
 

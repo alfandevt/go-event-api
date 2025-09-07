@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 
-	"github.com/alfandevt/go-even-api/internal/database"
-	"github.com/alfandevt/go-even-api/internal/routes"
+	"github.com/alfandevt/go-event-api/internal/database"
+	"github.com/alfandevt/go-event-api/internal/routes"
 	"github.com/gin-gonic/gin"
 )
 

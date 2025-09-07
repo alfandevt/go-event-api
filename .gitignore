@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # If you prefer the allow list template instead of the deny list, see community template:
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
 #
@@ -31,7 +30,6 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
-=======
 # Build folder
 build/
 
@@ -53,4 +51,3 @@ build/
 *.sublime-project
 *.sublime-workspace
 .DS_Store
->>>>>>> b2d656f (init)

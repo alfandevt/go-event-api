@@ -30,10 +30,8 @@ func InitDB(migrate bool) {
 
 	if migrate {
 		log.Println("initializing migrations on:")
-		log.Println(filepath.Join(dbPath, dbFile))
 		err = runInitMigration()
 		if err != nil {
-			log.Println(err)
 			panic("could not run migrations")
 		}
 		log.Print("initializing migrations: ok")
@@ -44,8 +42,6 @@ func runInitMigration() error {
 
 	dbSourceURL := "sqlite3://" + filepath.Join(dbPath, dbFile)
 	migrationSourcesURL := "file://" + migrationPath
-	log.Println(dbSourceURL)
-	log.Println(migrationSourcesURL)
 
 	log.Println("running migration...")
 	m, err := migrate.New(migrationSourcesURL, dbSourceURL)
